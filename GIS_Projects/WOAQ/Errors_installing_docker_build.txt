@@ -1,0 +1,14 @@
+ Errors installing docker build.txt
+
+ => => # npm WARN deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer su 
+ => => # pported or maintained                                                                      
+ => => # npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longer maintained and not recommend 
+ => => # ed for usage due to the number of issues. Because of the V8 engine whims, feature detectio 
+ => => # n in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. 
+ => => #  Please, upgrade your dependencies to the actual version of core-js. 
+
+
+ ERROR: for woaq-proxy  Cannot start service proxy: Ports are not available: listen tcp 0.0.0.0:80: bind: address alreadRecreating woaq-api   ... done
+
+ERROR: for proxy  Cannot start service proxy: Ports are not available: listen tcp 0.0.0.0:80: bind: address already in use
+ERROR: Encountered errors while bringing up the project.
